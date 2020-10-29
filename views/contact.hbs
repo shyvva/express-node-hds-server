@@ -21,18 +21,6 @@
   <label>
     Project file: <input type="file" name="avatar" accept=".gif,.jpg,.jpeg,.png">
   </label>
-
-    <div class="isSent">
-    {{#if isSent}}
-    <p>The message has been sent and project {{file}} has been saved</p>
-    {{/if}}
-  </div>
-
-  <div class="isError">{{#if isError}}
-    <p>You can't leave fields empty</p>
-    {{/if}}
-  </div>
-  
   <label>
     Message: <textarea name="message"></textarea>
   </label>
