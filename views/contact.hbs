@@ -1,12 +1,12 @@
 <h2>Contact me</h2>
 <form action="/contact/send-message" method="POST">
 
- {{#if isSent}}
-    <p class="isSent">The message has been sent and project {{file}} has been saved</p>
+  {{#if isSent}}
+  <p class="isSent">The message has been sent and project {{file}} has been saved</p>
   {{/if}}
 
   {{#if isError}}
-    <p class="isError">You can't leave fields empty</p>
+  <p class="isError">You can't leave fields empty</p>
   {{/if}}
 
   <label>
@@ -18,7 +18,7 @@
   <label>
     Title: <input type="text" name="title">
   </label>
-   <label>
+  <label>
     Project file: <input type="file" name="avatar" accept=".gif,.jpg,.jpeg,.png">
   </label>
   <label>
